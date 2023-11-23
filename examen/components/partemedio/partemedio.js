@@ -41,6 +41,7 @@ export default function partemedio({vaciarpantalla,textopantalla,cambiarpantalla
        <FilaBotones numerobotones={fila5} cambiarpantalla={cambiarpantalla}/>
        <View style={styles.filaespecial}>
             <Boton texto="C" cambiarpantalla={vaciarpantalla}/>
+            <Boton texto="=" cambiarpantalla={cambiarpantalla}/>
        </View>
     </View>
   );
